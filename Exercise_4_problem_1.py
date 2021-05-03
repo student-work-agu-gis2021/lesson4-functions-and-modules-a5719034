@@ -45,10 +45,8 @@ print(fahr_to_celsius(71))
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
-#
-#
+#I surely understand the contents.
+#Code input can be omitted.
 
 # #### Done!
 # 
