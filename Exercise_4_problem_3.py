@@ -71,6 +71,8 @@ for i in range(len(temp_data)):
   temp_celsius = fahr_to_celsius(temp_data[i])
   temp_class = temp_classifier(temp_celsius)
   temp_classes.append(temp_class)
+
+print(temp_classes)
 # #### Part 2 (continues)
 # 
 # 6. Calculate how many temperatures there are in each temperature class:
@@ -80,7 +82,19 @@ for i in range(len(temp_data)):
 #   
 
 # YOUR CODE HERE
-
+zeros= 0
+ones=0
+twos=0
+threes=0
+for i in range(len(temp_classes)):
+  if temp_classes[i]==0:
+    zeros+=1
+  elif temp_classes[i]==1:
+    ones+=1
+  elif temp_classes[i]==2:
+    twos+=1
+  elif temp_classes[i]==0:
+    threes+=1   
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
 # ### Problem 3 tests
